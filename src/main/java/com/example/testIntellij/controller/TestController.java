@@ -11,7 +11,7 @@ public class TestController {
 
     @GetMapping("/message")
     public Person getMessage() {
-
+        System.out.println("MEnsaje log");
         Person person = new Person(1, "Juan");
         return person;
     }
